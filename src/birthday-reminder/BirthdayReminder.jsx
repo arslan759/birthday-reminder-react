@@ -19,7 +19,7 @@ function BirthdayReminder() {
                         <div className='col-2 image me-2'>
                             <img src={item.image} alt="" />
                         </div>
-                        <div className='col'>
+                        <div className='col details'>
                             <h4>{item.name}</h4>
                             <p>{item.age} years</p>
                         </div>

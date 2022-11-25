@@ -22,6 +22,14 @@ body{
     object-fit: cover;
 }
 
+.details{
+    margin: auto 0px;
+}
+
+.details *{
+    margin: 0px;
+}
+
 .remove{
     text-decoration: underline;
     color: red;
