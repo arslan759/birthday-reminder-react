@@ -1,0 +1,36 @@
+body{
+    background-color: pink;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.reminder{
+    background-color: white;
+    padding: 1rem 2rem;
+    width: 40vw;
+    border-radius: 1rem;
+}
+
+.image img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.remove{
+    text-decoration: underline;
+    color: red;
+}
+
+.remove-all{
+    background-color: pink;
+
+}
+.remove-all:hover{
+    background-color: palevioletred
+}
